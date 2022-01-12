@@ -33,3 +33,35 @@
   right: 20px;
   display: none;
 }
+
+#timer {
+    font-size: 2.0em;
+    font-weight: 100;
+    color: white;
+    /*padding: 20px;
+    width: 700px;*/
+    color: black;
+    font-family: 'Permanent Marker', cursive;
+}
+
+#timer div {
+    display: inline-block;
+    min-width: 95px;
+    /*padding: 15px;
+    border-radius: 10px;
+    margin: 15px;*/
+}
+
+#timer div span {
+    color: #ffffff;
+    display: block;
+    /*margin-top: 15px;*/
+    font-size: .35em;
+    font-weight: 400;
+    color: black;
+}
+
+.break {
+  flex-basis: 100%;
+  height: 0;
+}
