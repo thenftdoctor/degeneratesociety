@@ -23,7 +23,7 @@
 
 @media only screen and (max-width: 600px) {
   #intro:before {
-    background: url("https://github.com/thenftdoctor/degeneratesociety/blob/main/images/degenerate_society_landing_mobile.png?raw=true")no-repeat center center fixed;
+    background: url("images/degenerate_society_landing_mobile.png")no-repeat center center fixed;
   }
 }
 
