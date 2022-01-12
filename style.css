@@ -11,7 +11,7 @@
     bottom: 0;
     left: 0;
     right: 0;
-    background: url("https://github.com/thenftdoctor/thenftdoctor.com/blob/main/images/degeneratesociety%232.jpg?raw=true")no-repeat center center fixed;
+    background: url("https://github.com/thenftdoctor/degeneratesociety/blob/main/images/degenerate_society_%233.jpg?raw=true")no-repeat center center fixed;
     opacity:0.3;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -59,9 +59,4 @@
     font-size: .35em;
     font-weight: 400;
     color: black;
-}
-
-.break {
-  flex-basis: 100%;
-  height: 0;
 }
