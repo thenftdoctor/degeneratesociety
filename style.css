@@ -1,3 +1,32 @@
+#intro {
+    position: relative;
+    z-index: 1;
+}
+
+#intro:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: url("https://github.com/thenftdoctor/thenftdoctor.com/blob/main/images/degeneratesociety%232.jpg?raw=true")no-repeat center center fixed;
+    opacity:0.3;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#brand{
+  font-size:75px;
+  color:black;
+  font-family: 'Permanent Marker', cursive;
+  font-weight: 900;
+  padding-bottom:20px;
+}
+
 #btn-back-to-top {
   position: fixed;
   bottom: 20px;
