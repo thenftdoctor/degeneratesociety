@@ -21,6 +21,12 @@
     background-size: cover;
 }
 
+@media only screen and (max-width: 600px) {
+  #intro:before {
+    background: url("https://github.com/thenftdoctor/degeneratesociety/blob/main/images/degenerate_society_landing_mobile.png?raw=true")no-repeat center center fixed;
+  }
+}
+
 #brand{
   font-size:75px;
   color:black;
@@ -48,7 +54,7 @@
 
 #timer div {
     display: inline-block;
-    min-width: 95px;
+    min-width: 70px;
     /*padding: 15px;
     border-radius: 10px;
     margin: 15px;*/
