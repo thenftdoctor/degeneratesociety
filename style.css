@@ -13,7 +13,7 @@
     right: 0;
     width: 100vw;
     height: 100vh;
-    background: url("https://github.com/thenftdoctor/degeneratesociety/blob/main/images/degenerate_society_%233.jpg?raw=true")no-repeat center center fixed;
+    background: url("https://github.com/thenftdoctor/degeneratesociety/blob/main/images/degenerate_society_landing_medium.png?raw=true")no-repeat center center fixed;
     opacity:0.3;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -21,19 +21,19 @@
     background-size: cover;
 }
 
-@media only screen and (max-width: 800px) {
+/*@media only screen and (max-width: 800px) {
   #intro:before {
     background: url("https://github.com/thenftdoctor/degeneratesociety/blob/main/images/degenerate_society_landing_mobile.png?raw=true")no-repeat center center fixed;
   }
-}
+}*/
 
-#brand{
+/*#brand{
   font-size:75px;
   color:black;
   font-family: 'Permanent Marker', cursive;
   font-weight: 900;
   padding-bottom:20px;
-}
+}*/
 
 #btn-back-to-top {
   position: fixed;
