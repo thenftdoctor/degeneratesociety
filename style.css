@@ -1,3 +1,26 @@
+#intromobile {
+    position: relative;
+    z-index: 1;
+}
+
+#intromobile:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    height: 100vh;
+    background: url("https://github.com/thenftdoctor/degeneratesociety/blob/main/images/degenerate_society_landing_mobile.png?raw=true")no-repeat center center fixed;
+    opacity:0.3;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
 #intro {
     position: relative;
     z-index: 1;
@@ -11,8 +34,8 @@
     bottom: 0;
     left: 0;
     right: 0;
-    width: 100%;
-    height: auto;
+    width: 100vw;
+    height: 100vh;
     background: url("https://github.com/thenftdoctor/degeneratesociety/blob/main/images/degenerate_society_%233.jpg?raw=true")no-repeat center center fixed;
     opacity:0.3;
     -webkit-background-size: cover;
@@ -20,14 +43,6 @@
     -o-background-size: cover;
     background-size: cover;
 }
-
-/*@media only screen and (max-width: 500px) {
-  #intro:before {
-    .responsive{
-      width:100%
-    }
-  }
-}*/
 
 /*#brand{
   font-size:75px;
