@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Degenerate Society</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <!-- Bootstrap ICONS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet">
+    <!-- Adobe fonts -->
+    <link rel="stylesheet" href="https://use.typekit.net/uac0jxe.css">
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Permanent+Marker&display=swap" rel="stylesheet">
+    <!-- Customized stylesheet -->
+    <link rel="stylesheet" href="style.css">
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/#">
+          <!--<img src="https://github.com/thenftdoctor/degeneratesociety/blob/main/images/glitch_logo_degenerative_society.GIF?raw=true" alt="" width="50" height="25" class="d-inline-block align-text-top"></img>-->
+        Degenerate Society
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <!--<a class="nav-link active" aria-current="page" href="/#">Home</a>-->
+            <a class="nav-link" href="#collection">The Collection</a>
+            <a class="nav-link" href="#artist">The Artist</a>
+            <!--<a class="nav-link" href="#imagegallery">Image Gallery</a>-->
+            <a class="nav-link" href="#howtobuy">How to buy</a>
+            <a class="nav-link" href="#links">Links</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </head>
+
+  <body>
+
+  <div class="container-fluid min-vh-100 my-5">
+    <div class="row align-items-center">
+      <h3>Grand Masterpiece #3</h3>
+      <div class="col-md-8">
+        <img src="https://github.com/thenftdoctor/degeneratesociety/blob/main/images/degenerate_society_GM%233.jpg?raw=true" class="img-fluid rounded"></img>
+      </div>
+      <div class="col-md-4">
+        <h4>Sold for 10 SOL</h4>
+        <p>Click <a href="https://exchange.art/single/ETcFh1TXMi8k89iToj9d9P2xY5rTTiPS9zFK2RMJSWN7" target="_blank">here</a> to go to the NFT listing page</p>
+        <a href="/grand_masterpiece_4.html" class="btn btn-dark" role="button" style="margin-top:30px; background-color:black;">
+          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+          </svg> View the next NFT
+        </a>
+      </div>
+    </div>
+  </div>
+
+    <!--LINKS SECTION-->
+    <div class="container-fluid bg-black min-vh-30">
+      <div class="row align-items-center pt-5">
+        <div class="col-md text-center">
+            <h2 id="links" class="text-white">Links</h2>
+          </div>
+        </div>
+      <div class="row align-items-center pt-3">
+          <div class="col text-center">
+            <a href="mailto:kdkammeijer@gmail.com" target="_blank" class="link-light"><h3 style="color:white;"><i class="bi bi-envelope"></i></h3></a>
+          </div>
+          <div class="col text-center">
+            <a href="https://www.twitter.com/kdkammeijer/" target="_blank" class="link-light"><h3><i class="bi bi-twitter"></i></h3></a>
+          </div>
+          <div class="col text-center">
+            <a href="https://discord.com/invite/87tCaCrCPu" target="_blank" class="link-light"><h3><i class="bi bi-discord"></i></h3></a>
+          </div>
+      </div>
+      <div class="row align-items-center py-5">
+        <div class="col-md text-center">
+            <h4 class="text-white">Thanks for your visit.</h4>
+            <p class="text-white">Degenerate Society &#169 2022 KDKammeijer & The NFT Doctor. All rights reserved.</p>
+        </div>
+      </div>
+    </div>
+
+    <!--Scrollbutton-->
+    <button type="button" class="btn btn-outline-dark btn-floating" id="btn-back-to-top">
+      <i class="bi bi-chevron-up"></i>
+    </button>
+
+    <!--Script for scrollbutton-->
+    <script>
+      let mybutton = document.getElementById("btn-back-to-top");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () {
+          scrollFunction();
+        };
+
+        function scrollFunction() {
+          if (
+            document.body.scrollTop > 20 ||
+            document.documentElement.scrollTop > 20
+          ) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+        // When the user clicks on the button, scroll to the top of the document
+        mybutton.addEventListener("click", backToTop);
+
+        function backToTop() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+    </script>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
